@@ -35,5 +35,4 @@ test("Pet types", async ({ page }) => {
 
   // 9. Add the assertion that the first pet type in the list of names has a value "cat"
   await expect(page.locator('[id="0"]')).toHaveValue("cat")
-  await page.close()
-})
+});
